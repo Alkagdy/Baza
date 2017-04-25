@@ -30,7 +30,7 @@ while True:
     elif wybor_uzytkownika =="5":
         szukaj_imie = str(input("Podaj imie do wyszukania:"))
 
-        if imie in baza_danych:
+        if szukaj_imie in baza_danych:
             print("Podane imie znajduje sie w bazie danych")
         else:
             print("Brak imienia w bazie!")
